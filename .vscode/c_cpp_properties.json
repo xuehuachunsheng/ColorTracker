@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/software/opencv3.4.9/build/include",
+                "D:/software/opencv3.4.9/build/include/opencv",
+                "D:/software/opencv3.4.9/build/include/opencv2",
+                "D:/software/opencv_contrib-3.4.9/modules/tracking/include",
+                "D:/vscode_projects/ColorTracker-master/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "D:/software/mingw-w64/i686-5.3.0-posix-dwarf-rt_v4-rev0/mingw64/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

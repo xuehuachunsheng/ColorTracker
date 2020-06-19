@@ -1,0 +1,42 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: g++.exe build active file",
+            "command": "D:\\software\\mingw-w64\\i686-5.3.0-posix-dwarf-rt_v4-rev0\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "-std=c++11",
+                "-c",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.o",
+                "-I",
+                "D:/software/opencv3.4.9/build/include",
+                "-I",
+                "D:/software/opencv3.4.9/build/include/opencv2",
+                "-I",
+                "D:/software/opencv3.4.9/build/include/opencv",
+                "-I",
+                "D:/software/opencv_contrib-3.4.9/modules/tracking/include",
+                "-I",
+                "D:/vscode_projects/ColorTracker-master/include",
+                "-L",
+                "D:/software/opencv3.4.9/build/x64/MinGW/lib",
+                "-l",
+                "opencv_world349"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
